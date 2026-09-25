@@ -1,0 +1,8 @@
+CC0 1.0 Universal
+
+The original synthetic software_incidents.csv dataset, its data dictionary,
+and scripts/generate_dataset.py are dedicated to the public domain under
+CC0 1.0 Universal, to the extent permitted by law.
+No real personal or proprietary records are included.
+Legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+This dedication does not apply to linked books or third-party software.

@@ -1,0 +1,506 @@
+[
+  {
+    "objectID": "activities/session-04.html",
+    "href": "activities/session-04.html",
+    "title": "Session 4 activity · Build an EDA panel",
+    "section": "",
+    "text": "Use the Session 4 notebook and the cleaned incident dataset. The goal is to inspect, not to test a hypothesis."
+  },
+  {
+    "objectID": "activities/session-04.html#s04-e1-show-the-distribution",
+    "href": "activities/session-04.html#s04-e1-show-the-distribution",
+    "title": "Session 4 activity · Build an EDA panel",
+    "section": "S04-E1 · Show the distribution",
+    "text": "S04-E1 · Show the distribution\nCreate a histogram of observed resolution_hours. Label the horizontal axis in hours and identify the number of observations and bin choice. Describe the concentration and tail without treating an unusual value as an error."
+  },
+  {
+    "objectID": "activities/session-04.html#s04-e2-make-denominators-visible",
+    "href": "activities/session-04.html#s04-e2-make-denominators-visible",
+    "title": "Session 4 activity · Build an EDA panel",
+    "section": "S04-E2 · Make denominators visible",
+    "text": "S04-E2 · Make denominators visible\nCreate a bar chart comparing incident-record counts with observed-duration counts for each service. Label the groups and count axis. Explain what the gap for a group means and what it does not mean."
+  },
+  {
+    "objectID": "activities/session-04.html#s04-e3-show-group-distributions",
+    "href": "activities/session-04.html#s04-e3-show-group-distributions",
+    "title": "Session 4 activity · Build an EDA panel",
+    "section": "S04-E3 · Show group distributions",
+    "text": "S04-E3 · Show group distributions\nCreate a boxplot of observed resolution hours by service and overlay the individual values. Label units and groups. Write one observation and one caution about interpreting groups with small or unequal observed counts."
+  },
+  {
+    "objectID": "activities/session-04.html#peer-review",
+    "href": "activities/session-04.html#peer-review",
+    "title": "Session 4 activity · Build an EDA panel",
+    "section": "Peer review",
+    "text": "Peer review\nIn virtual breakout rooms, ask a partner to interpret the panel without a verbal walkthrough. Revise any title, label, scale, legend, or caption that leaves the variable or denominator unclear. Return to the full group with one claim the plots support and one they do not support."
+  },
+  {
+    "objectID": "activities/session-02.html",
+    "href": "activities/session-02.html",
+    "title": "Session 2 formative assessment",
+    "section": "",
+    "text": "Return to Session 2 · Download Markdown"
+  },
+  {
+    "objectID": "activities/session-02.html#learning-outcomes-assessed",
+    "href": "activities/session-02.html#learning-outcomes-assessed",
+    "title": "Session 2 formative assessment",
+    "section": "Learning outcomes assessed",
+    "text": "Learning outcomes assessed\n\nSelect records and derive a variable while preserving raw data.\nJustify separate treatments of duplicates, missing values, and invalid values.\nReport group summaries with record and observed-value counts.\nCommunicate units, missingness, and limits of a descriptive comparison."
+  },
+  {
+    "objectID": "activities/session-02.html#instructions-and-grading-criteria",
+    "href": "activities/session-02.html#instructions-and-grading-criteria",
+    "title": "Session 2 formative assessment",
+    "section": "Instructions and grading criteria",
+    "text": "Instructions and grading criteria\nUse the notebook and data dictionary. Work individually during the last ten minutes: Q1–Q3 in seven minutes and Q4 in three. Submit responses with IDs. Ten feedback points, no final-grade weight: eight for reasoning, two for code. Use units, justify decisions, and identify the relevant denominator. Partial credit recognizes correct reasoning even when code needs a small correction."
+  },
+  {
+    "objectID": "activities/session-02.html#s02-q1",
+    "href": "activities/session-02.html#s02-q1",
+    "title": "Session 2 formative assessment",
+    "section": "S02-Q1",
+    "text": "S02-Q1\nPoints: 3\nA closed incident has resolution_hours = -4; another has no recorded duration; an entire export row appears twice. Describe a defensible treatment for each and explain why replacing all three issues with zero is inappropriate.\nYour response:"
+  },
+  {
+    "objectID": "activities/session-02.html#s02-q2",
+    "href": "activities/session-02.html#s02-q2",
+    "title": "Session 2 formative assessment",
+    "section": "S02-Q2",
+    "text": "S02-Q2\nPoints: 3\nA cleaned service group has records = 7, observed = 4, and mean_hours = 8. State the denominator of the mean, the number of missing durations, and one limitation when comparing this mean with another service.\nYour response:"
+  },
+  {
+    "objectID": "activities/session-02.html#s02-q3",
+    "href": "activities/session-02.html#s02-q3",
+    "title": "Session 2 formative assessment",
+    "section": "S02-Q3",
+    "text": "S02-Q3\nPoints: 2\nGiven a cleaned DataFrame clean, select service == “api” into api_only and create resolution_days by dividing resolution_hours by 24. Preserve clean unchanged.\nYour response:"
+  },
+  {
+    "objectID": "activities/session-02.html#s02-q4",
+    "href": "activities/session-02.html#s02-q4",
+    "title": "Session 2 formative assessment",
+    "section": "S02-Q4",
+    "text": "S02-Q4\nPoints: 2\nA version has a lower observed mean duration. Give one reason this does not establish a causal improvement, and name one additional piece of information you would request.\nYour response:"
+  },
+  {
+    "objectID": "activities/index.html",
+    "href": "activities/index.html",
+    "title": "Formative activities",
+    "section": "",
+    "text": "These activities support feedback and carry no final grade weighting. Work through the matching notebook before writing your interpretations.\n\nSession 1 assessment: observational units, variables, and a data audit.\nSession 2 assessment: transparent preparation and grouped summaries.\nSession 3 activity: robust descriptive summaries and group denominators.\nSession 4 activity: a three-plot exploratory panel."
+  },
+  {
+    "objectID": "sessions/session-03.html",
+    "href": "sessions/session-03.html",
+    "title": "Session 3 · Descriptive statistics",
+    "section": "",
+    "text": "Which summary best describes a typical incident resolution time when values are unevenly distributed and services differ?"
+  },
+  {
+    "objectID": "sessions/session-03.html#the-question",
+    "href": "sessions/session-03.html#the-question",
+    "title": "Session 3 · Descriptive statistics",
+    "section": "",
+    "text": "Which summary best describes a typical incident resolution time when values are unevenly distributed and services differ?"
+  },
+  {
+    "objectID": "sessions/session-03.html#learning-outcomes",
+    "href": "sessions/session-03.html#learning-outcomes",
+    "title": "Session 3 · Descriptive statistics",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nBy the end of this session, you can:\n\nCalculate and interpret a mean, median, quartiles, range, and interquartile range (E1, Q1).\nExplain how an extreme value affects the mean and standard deviation compared with the median and IQR (E1, Q2).\nChoose summaries for a question and distribution, stating units and denominators (E2, Q2).\nCommunicate an overall and service-level descriptive profile with limitations (E3, Q3–Q4)."
+  },
+  {
+    "objectID": "sessions/session-03.html#materials",
+    "href": "sessions/session-03.html#materials",
+    "title": "Session 3 · Descriptive statistics",
+    "section": "Materials",
+    "text": "Materials\n\nOpen the presentation\nDownload the student notebook\nDownload the incident CSV\nRead the data dictionary\nOpen the activity\nDownload the formative assessment"
+  },
+  {
+    "objectID": "sessions/session-03.html#before-class",
+    "href": "sessions/session-03.html#before-class",
+    "title": "Session 3 · Descriptive statistics",
+    "section": "Before class",
+    "text": "Before class\nReview the Session 2 preparation decisions and the meaning of observed-value counts. Read Learning Statistics with Python, Chapter 5 and Think Stats, Chapter 1."
+  },
+  {
+    "objectID": "sessions/session-03.html#during-the-session",
+    "href": "sessions/session-03.html#during-the-session",
+    "title": "Session 3 · Descriptive statistics",
+    "section": "During the session",
+    "text": "During the session\nCompare the mean and median on a small distribution, then build a concise profile of the cleaned incident-resolution data. In the notebook, keep record counts next to observed duration counts and justify why each summary suits the question. Discuss interpretations in a virtual breakout room and bring one evidence-based statement back to the full group.\nThe shared synthetic file contains 24 distinct fictional incidents and 21 valid observed durations after the documented Session 2 policy. resolution_hours is elapsed time from incident opening to closure, in hours; it is not service response latency. The file is neither a random sample nor a causal study."
+  },
+  {
+    "objectID": "sessions/session-03.html#what-to-retain",
+    "href": "sessions/session-03.html#what-to-retain",
+    "title": "Session 3 · Descriptive statistics",
+    "section": "What to retain",
+    "text": "What to retain\nSave the completed notebook and a short profile with units, denominators, one limitation, and a reason for your choice of typical value. These summaries describe the available synthetic records only."
+  },
+  {
+    "objectID": "sessions/session-01.html",
+    "href": "sessions/session-01.html",
+    "title": "Session 1 · Questions before calculations",
+    "section": "",
+    "text": "What information must a software team collect to evaluate whether a new system version performs better? Start by asking what each record represents and what the available data can actually tell us."
+  },
+  {
+    "objectID": "sessions/session-01.html#the-question",
+    "href": "sessions/session-01.html#the-question",
+    "title": "Session 1 · Questions before calculations",
+    "section": "",
+    "text": "What information must a software team collect to evaluate whether a new system version performs better? Start by asking what each record represents and what the available data can actually tell us."
+  },
+  {
+    "objectID": "sessions/session-01.html#learning-outcomes",
+    "href": "sessions/session-01.html#learning-outcomes",
+    "title": "Session 1 · Questions before calculations",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nBy the end of this session, you can:\n\nIdentify the unit, population, available sample, parameter, and statistic (E1, Q1).\nClassify variables by meaning rather than Python storage type (E1, Q1).\nLoad a CSV and inspect dimensions, types, and nonmissing counts (E2, Q3).\nWrite an evidence-based audit with two concerns and a limitation (E3, Q2, Q4)."
+  },
+  {
+    "objectID": "sessions/session-01.html#materials",
+    "href": "sessions/session-01.html#materials",
+    "title": "Session 1 · Questions before calculations",
+    "section": "Materials",
+    "text": "Materials\n\nOpen the presentation\nDownload the student notebook\nDownload the incident CSV\nRead the data dictionary\nOpen the formative assessment\nDownload the assessment"
+  },
+  {
+    "objectID": "sessions/session-01.html#before-class",
+    "href": "sessions/session-01.html#before-class",
+    "title": "Session 1 · Questions before calculations",
+    "section": "Before class",
+    "text": "Before class\nFollow the setup guide. Open the notebook locally or upload it to Colab; the CSV is embedded, so a separate data upload is optional. Read the dataset description and the selected measurement and notebook sections linked in the setup guide."
+  },
+  {
+    "objectID": "sessions/session-01.html#during-class",
+    "href": "sessions/session-01.html#during-class",
+    "title": "Session 1 · Questions before calculations",
+    "section": "During class",
+    "text": "During class\nWe move from a practical question to a data audit. The demonstration introduces read_csv, head, shape, dtypes, and info; guided practice asks you to connect the output to the meaning of each column. Record issues without silently repairing the export.\n\n\n\n\n\n\n\nMinutes\nFocus\n\n\n\n\n0–30\nPractical question, observational units, variable types, and scope\n\n\n30–50\nWorked demonstration: load and inspect\n\n\n50–80\nGuided notebook exercises and peer comparison\n\n\n80–90\nFormative assessment and exit ticket\n\n\n\nThese are planned session times for videoconference delivery; they have not been measured with a student cohort.\nUse the assessment for your closing interpretation and exit ticket. Your explanations matter as much as working code. The activity is formative and has no final grade weighting."
+  },
+  {
+    "objectID": "sessions/session-01.html#what-to-retain",
+    "href": "sessions/session-01.html#what-to-retain",
+    "title": "Session 1 · Questions before calculations",
+    "section": "What to retain",
+    "text": "What to retain\nSave your notebook and audit. Identify the intended incident unit, explain why export rows may not equal independent incidents, and state why these synthetic records cannot establish whether a software deployment caused better performance. Bring the audit to Session 2."
+  },
+  {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Dataset: software incidents",
+    "section": "",
+    "text": "Both pilot sessions use the same synthetic teaching dataset. It is deliberately small and contains quality issues for inspection and documented preparation. It describes no real organization or person and supports no claims about real service performance.\n\nDownload the CSV\nDataset notes\nData dictionary\nDataset license\n\nThe intended observational unit is an incident. The export contains 24 unique incidents and one duplicated record. Columns describe the incident identifier, service, severity, resolution time in hours, deployed version, and customer impact. Consult the dictionary before interpreting a pandas storage type as a statistical variable type.\nKeep the raw export unchanged. In Session 1, identify questions and audit concerns; in Session 2, create a separate analysis table and record your decisions."
+  },
+  {
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Course calendar",
+    "section": "",
+    "text": "The sequence below uses relative meetings; calendar dates have not been assigned. Each meeting is 90 minutes and takes place over videoconference; the platform and joining link will be announced before Meeting 1. Prepare your environment before Meeting 1.\n\n\n\nMeeting\nFocus\nBefore class\n\n\n\n\n1\nQuestions, variables, and inspection\nDownload the notebook and test the setup; separate CSV optional\n\n\n2\nPreparation and grouped summaries\nRevisit your Session 1 audit\n\n\n3\nDescriptive statistics\nReview the Session 2 preparation policy\n\n\n4\nExploratory visualization\nBring the Session 3 descriptive profile\n\n\n5\nSampling variability — planned\nTo be announced\n\n\n6\nConfidence intervals — planned\nTo be announced\n\n\n7\nHypothesis testing — planned\nTo be announced\n\n\n8\nTwo-group comparisons — planned\nTo be announced\n\n\n9\nSelected methods — planned\nTo be announced\n\n\n10\nIntegrated case study — planned\nTo be announced"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Evidence starts with the data",
+    "section": "",
+    "text": "Learn to ask useful statistical questions, inspect software data, and communicate conclusions with appropriate uncertainty. This course is designed for master’s students in Software Engineering who know basic Python and are new to statistics."
+  },
+  {
+    "objectID": "index.html#start-here",
+    "href": "index.html#start-here",
+    "title": "Evidence starts with the data",
+    "section": "Start here",
+    "text": "Start here\n\nRead the course syllabus.\nPrepare Jupyter or Google Colab using the setup guide.\nOpen Session 1: Statistical questions and data.\n\nSessions 1–4 have complete learning packages. Sessions 5–10 are planned and do not yet have published materials. Each meeting lasts 90 minutes; the full course has 15 contact hours."
+  },
+  {
+    "objectID": "index.html#our-recurring-case",
+    "href": "index.html#our-recurring-case",
+    "title": "Evidence starts with the data",
+    "section": "Our recurring case",
+    "text": "Our recurring case\nA software team wants to compare incident resolution across deployed versions. Before calculating a difference, we must understand what a record represents and whether the export can support that comparison. We use a small, openly licensed synthetic incident dataset to practice those decisions."
+  },
+  {
+    "objectID": "index.html#learning-through-practice",
+    "href": "index.html#learning-through-practice",
+    "title": "Evidence starts with the data",
+    "section": "Learning through practice",
+    "text": "Learning through practice\nEvery session combines concepts, a worked example, guided notebook practice, and a short formative assessment. Sessions 1–4 use criterion-based feedback; any course-grade weighting and final project policy will be announced separately. Bring your questions and explain your decisions in words as well as code."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "By the end of the full course, you will import, summarize, visualize, and analyze data with Python; connect statistical procedures to a study design; and communicate estimates, uncertainty, and limitations. Basic Python knowledge is assumed. Prior statistics knowledge is not required.\nAll 10 sessions are delivered live over videoconference; there are no in-person meetings. Join from the link shared before each session."
+  },
+  {
+    "objectID": "syllabus.html#purpose-and-prerequisites",
+    "href": "syllabus.html#purpose-and-prerequisites",
+    "title": "Syllabus",
+    "section": "",
+    "text": "By the end of the full course, you will import, summarize, visualize, and analyze data with Python; connect statistical procedures to a study design; and communicate estimates, uncertainty, and limitations. Basic Python knowledge is assumed. Prior statistics knowledge is not required.\nAll 10 sessions are delivered live over videoconference; there are no in-person meetings. Join from the link shared before each session."
+  },
+  {
+    "objectID": "syllabus.html#course-sequence",
+    "href": "syllabus.html#course-sequence",
+    "title": "Syllabus",
+    "section": "Course sequence",
+    "text": "Course sequence\n\n\n\nSession\nTopic\nPractical output\nMaterials\n\n\n\n\n1\nStatistical questions and data types\nA documented data audit\nAvailable\n\n\n2\nData preparation and grouping\nA documented analysis table\nAvailable\n\n\n3\nDescriptive statistics\nInterpreted grouped summaries\nAvailable\n\n\n4\nExploratory visualization\nAn evidence-focused EDA panel\nAvailable\n\n\n5\nSampling variability\nA sampling simulation\nPlanned\n\n\n6\nEstimation and confidence intervals\nAn estimate with uncertainty\nPlanned\n\n\n7\nHypothesis testing\nA contextual one-sample analysis\nPlanned\n\n\n8\nTwo-group comparisons\nIndependent and paired analyses\nPlanned\n\n\n9\nSelected categorical, non-parametric, and association methods\nA justified method choice\nPlanned; scope to be finalized\n\n\n10\nIntegrated case study\nA concise reproducible analysis\nPlanned"
+  },
+  {
+    "objectID": "syllabus.html#expectations",
+    "href": "syllabus.html#expectations",
+    "title": "Syllabus",
+    "section": "Expectations",
+    "text": "Expectations\n\nExplain the observational unit, variables, and scope of your conclusions.\nPreserve raw data and document every preparation decision.\nRun notebooks from the first cell to the last before sharing them.\nTreat this synthetic dataset as a learning example, not evidence about actual software services."
+  },
+  {
+    "objectID": "syllabus.html#assessment-and-resources",
+    "href": "syllabus.html#assessment-and-resources",
+    "title": "Syllabus",
+    "section": "Assessment and resources",
+    "text": "Assessment and resources\nSessions 1–4 use formative activities, peer discussion, and exit tickets. Course-grade weighting and final project policy will be announced separately. See the activities, readings and setup, and calendar."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources and setup",
+    "section": "",
+    "text": "Sessions are delivered live over videoconference, not in person. Test your camera, microphone, and screen sharing before Meeting 1, and keep your notebook environment open in a separate window so you can follow along and share your screen during guided practice."
+  },
+  {
+    "objectID": "resources.html#join-the-session",
+    "href": "resources.html#join-the-session",
+    "title": "Resources and setup",
+    "section": "",
+    "text": "Sessions are delivered live over videoconference, not in person. Test your camera, microphone, and screen sharing before Meeting 1, and keep your notebook environment open in a separate window so you can follow along and share your screen during guided practice."
+  },
+  {
+    "objectID": "resources.html#run-locally-with-jupyter",
+    "href": "resources.html#run-locally-with-jupyter",
+    "title": "Resources and setup",
+    "section": "Run locally with Jupyter",
+    "text": "Run locally with Jupyter\nDownload a student notebook from its session page. Each notebook embeds the same synthetic CSV and runs without a separate data download. Optionally download software_incidents.csv into the same folder to practice loading a local file; preserve that original export. Use Python 3.11 or later with pandas, NumPy, and Jupyter installed. Open the notebook in Jupyter and select Restart Kernel and Run All Cells.\npython -m venv .venv\n# Windows PowerShell:\n.venv/Scripts/python -m pip install jupyter pandas numpy\n.venv/Scripts/python -m jupyter notebook\n# macOS/Linux: use .venv/bin/python instead.\nThe commands above provide a lightweight student setup for the activities."
+  },
+  {
+    "objectID": "resources.html#run-in-google-colab",
+    "href": "resources.html#run-in-google-colab",
+    "title": "Resources and setup",
+    "section": "Run in Google Colab",
+    "text": "Run in Google Colab\n\nDownload the student .ipynb from the session page.\nOpen Google Colab and upload the notebook.\nThe notebook’s embedded CSV works immediately. Uploading the separate CSV into the runtime files panel is an optional file-loading exercise; pandas and NumPy are already available in Colab.\nSelect Runtime → Run all. Save a copy of your work; runtime uploads are temporary.\n\nRunnable TODO placeholders are intentional: the starter notebook runs before you complete the exercises. A successful run alone does not mean the exercises are answered."
+  },
+  {
+    "objectID": "resources.html#readings",
+    "href": "resources.html#readings",
+    "title": "Resources and setup",
+    "section": "Readings",
+    "text": "Readings\n\nPrimary text, Session 1: Danielle Navarro and Ethan Weed, Learning Statistics with Python, Sections 2.1–2.2: measurement and scales and Chapter 3: working in notebooks.\nPrimary text, Session 2: Chapter 7: data frames, subset selection, and missing data, selected sections.\nComputational companion: Allen B. Downey, Think Stats, 3rd edition, Chapter 1, especially DataFrames, Series, and validation of data.\nAPI reference: the pandas user guide explains indexing, missing data, and grouping.\n\nThese readings support the activities; completing entire chapters is not required before class."
+  },
+  {
+    "objectID": "sessions/index.html",
+    "href": "sessions/index.html",
+    "title": "Sessions",
+    "section": "",
+    "text": "Session 1 — Statistical questions and data in Python: identify units and variables; load and audit an incident export.\nSession 2 — Data preparation and grouped summaries: select, derive, document missingness, and summarize groups.\nSession 3 — Descriptive statistics: choose summaries that fit the distribution and report denominators.\nSession 4 — Exploratory visualization: build and interpret an evidence-focused EDA panel."
+  },
+  {
+    "objectID": "sessions/index.html#available-now",
+    "href": "sessions/index.html#available-now",
+    "title": "Sessions",
+    "section": "",
+    "text": "Session 1 — Statistical questions and data in Python: identify units and variables; load and audit an incident export.\nSession 2 — Data preparation and grouped summaries: select, derive, document missingness, and summarize groups.\nSession 3 — Descriptive statistics: choose summaries that fit the distribution and report denominators.\nSession 4 — Exploratory visualization: build and interpret an evidence-focused EDA panel."
+  },
+  {
+    "objectID": "sessions/index.html#planned",
+    "href": "sessions/index.html#planned",
+    "title": "Sessions",
+    "section": "Planned",
+    "text": "Planned\nSessions 5–10 follow the syllabus. Their learning materials will be added after development and review."
+  },
+  {
+    "objectID": "sessions/session-02.html",
+    "href": "sessions/session-02.html",
+    "title": "Session 2 · Prepare data transparently",
+    "section": "",
+    "text": "How can raw incident records become an analysis-ready table without hiding quality problems? Reuse the Session 1 audit and preserve the original export."
+  },
+  {
+    "objectID": "sessions/session-02.html#the-question",
+    "href": "sessions/session-02.html#the-question",
+    "title": "Session 2 · Prepare data transparently",
+    "section": "",
+    "text": "How can raw incident records become an analysis-ready table without hiding quality problems? Reuse the Session 1 audit and preserve the original export."
+  },
+  {
+    "objectID": "sessions/session-02.html#learning-outcomes",
+    "href": "sessions/session-02.html#learning-outcomes",
+    "title": "Session 2 · Prepare data transparently",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nBy the end of this session, you can:\n\nSelect records and derive a variable while preserving the raw table (E1, Q3).\nIdentify repeated records, unknown values, and impossible durations, and justify distinct treatments (E2, Q1).\nProduce grouped summaries with both record and observed-value counts (E3, Q2).\nCommunicate a descriptive result with units, missingness, and limitations (E3, Q4)."
+  },
+  {
+    "objectID": "sessions/session-02.html#materials",
+    "href": "sessions/session-02.html#materials",
+    "title": "Session 2 · Prepare data transparently",
+    "section": "Materials",
+    "text": "Materials\n\nOpen the presentation\nDownload the student notebook\nDownload the incident CSV\nRead the data dictionary\nOpen the formative assessment\nDownload the assessment"
+  },
+  {
+    "objectID": "sessions/session-02.html#before-class",
+    "href": "sessions/session-02.html#before-class",
+    "title": "Session 2 · Prepare data transparently",
+    "section": "Before class",
+    "text": "Before class\nBring your Session 1 audit. Review selection, missing data, and grouping in the pandas user guide. See the setup guide if you need to reopen the notebook environment."
+  },
+  {
+    "objectID": "sessions/session-02.html#during-class",
+    "href": "sessions/session-02.html#during-class",
+    "title": "Session 2 · Prepare data transparently",
+    "section": "During class",
+    "text": "During class\nFollow a visible pipeline: inspect the raw export, select records, document duplicate handling, flag invalid measurements, preserve missing values where justified, derive units, and summarize by group. Compare the number of records with the number of observed measurements. A missing measurement is not automatically zero, and dropping incomplete rows changes the population described by a summary.\nComplete the guided exercises and formative assessment. Explain each decision and its consequences, not only the pandas command used.\n\n\n\n\n\n\n\nMinutes\nFocus\n\n\n\n\n0–30\nPreparation decisions, selection, units, and group denominators\n\n\n30–50\nWorked demonstration: selection, conversion, cleaning, and grouping\n\n\n50–80\nGuided notebook exercises and peer review\n\n\n80–90\nFormative assessment and exit ticket\n\n\n\nThese are planned session times for videoconference delivery; they have not been measured with a student cohort."
+  },
+  {
+    "objectID": "sessions/session-02.html#what-to-retain",
+    "href": "sessions/session-02.html#what-to-retain",
+    "title": "Session 2 · Prepare data transparently",
+    "section": "What to retain",
+    "text": "What to retain\nSave the notebook, your analysis table, and a brief preparation log. Write one contextual observation about the grouped summary and one limitation. Group differences here are descriptive: these synthetic observational records do not establish a causal deployment effect."
+  },
+  {
+    "objectID": "sessions/session-04.html",
+    "href": "sessions/session-04.html",
+    "title": "Session 4 · Exploratory visualization",
+    "section": "",
+    "text": "What do plots of incident resolution times reveal that a table of means and standard deviations can hide?"
+  },
+  {
+    "objectID": "sessions/session-04.html#the-question",
+    "href": "sessions/session-04.html#the-question",
+    "title": "Session 4 · Exploratory visualization",
+    "section": "",
+    "text": "What do plots of incident resolution times reveal that a table of means and standard deviations can hide?"
+  },
+  {
+    "objectID": "sessions/session-04.html#learning-outcomes",
+    "href": "sessions/session-04.html#learning-outcomes",
+    "title": "Session 4 · Exploratory visualization",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nBy the end of this session, you can:\n\nChoose a plot that matches variable type and exploratory question (E1, Q1).\nBuild bar charts, histograms, and boxplots with clear axes, units, and counts (E1–E3, Q3).\nDescribe distribution shape, coverage, and unusual observations without automatically calling them errors (E1–E2, Q2).\nCommunicate a visual observation and limitation without implying causation (E3, Q2–Q4)."
+  },
+  {
+    "objectID": "sessions/session-04.html#materials",
+    "href": "sessions/session-04.html#materials",
+    "title": "Session 4 · Exploratory visualization",
+    "section": "Materials",
+    "text": "Materials\n\nOpen the presentation\nDownload the student notebook\nDownload the incident CSV\nRead the data dictionary\nOpen the activity\nDownload the formative assessment"
+  },
+  {
+    "objectID": "sessions/session-04.html#before-class",
+    "href": "sessions/session-04.html#before-class",
+    "title": "Session 4 · Exploratory visualization",
+    "section": "Before class",
+    "text": "Before class\nBring your Session 3 descriptive profile. Read Learning Statistics with Python, Chapter 6 and the exploratory examples in Think Stats, Chapters 1–2."
+  },
+  {
+    "objectID": "sessions/session-04.html#during-the-session",
+    "href": "sessions/session-04.html#during-the-session",
+    "title": "Session 4 · Exploratory visualization",
+    "section": "During the session",
+    "text": "During the session\nBuild an exploratory panel with a histogram of all observed durations, a boxplot with visible observations by service, and bars comparing incident records with observed durations. In a virtual breakout room, exchange one interpretation and one caution; revise the panel so another reader can identify the variables, units, and denominators without narration.\nThe shared data contain 24 fictional closed incidents and 21 observed resolution_hours values. This variable is opening-to-closure time in hours, not response latency. There is no meaningful date or second numerical measure in this dataset, so an incident identifier is not a time axis and a trend should not be invented."
+  },
+  {
+    "objectID": "sessions/session-04.html#what-to-retain",
+    "href": "sessions/session-04.html#what-to-retain",
+    "title": "Session 4 · Exploratory visualization",
+    "section": "What to retain",
+    "text": "What to retain\nSave the three-plot EDA panel and a brief interpretation for each plot. State what is visible, what remains uncertain, and what additional variable or data would support the next question. Exploratory plots do not establish a causal effect."
+  },
+  {
+    "objectID": "activities/session-01.html",
+    "href": "activities/session-01.html",
+    "title": "Session 1 formative assessment",
+    "section": "",
+    "text": "Return to Session 1 · Download Markdown"
+  },
+  {
+    "objectID": "activities/session-01.html#learning-outcomes-assessed",
+    "href": "activities/session-01.html#learning-outcomes-assessed",
+    "title": "Session 1 formative assessment",
+    "section": "Learning outcomes assessed",
+    "text": "Learning outcomes assessed\n\nIdentify units, population, available sample, parameter, and statistic.\nClassify variables by meaning rather than storage type.\nLoad a CSV and inspect dimensions, types, and nonmissing counts.\nWrite an audit with evidence, quality concerns, and a limitation."
+  },
+  {
+    "objectID": "activities/session-01.html#instructions-and-grading-criteria",
+    "href": "activities/session-01.html#instructions-and-grading-criteria",
+    "title": "Session 1 formative assessment",
+    "section": "Instructions and grading criteria",
+    "text": "Instructions and grading criteria\nUse your notebook and the data dictionary. Respond individually during the last 10 minutes: Q1–Q3 in seven minutes; Q4 in three. Submit this document or a short text response with question IDs. Ten feedback points, no final-grade weight. Eight points assess reasoning; two assess code. Explain claims in context and include units. Partial credit is available for correct reasoning."
+  },
+  {
+    "objectID": "activities/session-01.html#s01-q1",
+    "href": "activities/session-01.html#s01-q1",
+    "title": "Session 1 formative assessment",
+    "section": "S01-Q1",
+    "text": "S01-Q1\nPoints: 3\nA team records build_id, status (pass/fail), and duration_seconds for 12 of its 200 builds this week. Identify the observational unit. Classify status and duration_seconds. Is the mean duration of the 12 recorded builds a statistic or a population parameter?\nYour response:"
+  },
+  {
+    "objectID": "activities/session-01.html#s01-q2",
+    "href": "activities/session-01.html#s01-q2",
+    "title": "Session 1 formative assessment",
+    "section": "S01-Q2",
+    "text": "S01-Q2\nPoints: 3\nAn export has shape (25, 6), and info() reports 23 nonmissing resolution_hours values. State what each number means. Does this prove there are 25 distinct incidents with valid durations? Explain.\nYour response:"
+  },
+  {
+    "objectID": "activities/session-01.html#s01-q3",
+    "href": "activities/session-01.html#s01-q3",
+    "title": "Session 1 formative assessment",
+    "section": "S01-Q3",
+    "text": "S01-Q3\nPoints: 2\nWith pandas imported as pd and software_incidents.csv uploaded to the working directory, write two lines that read it into incidents and display its first three rows.\nYour response:"
+  },
+  {
+    "objectID": "activities/session-01.html#s01-q4",
+    "href": "activities/session-01.html#s01-q4",
+    "title": "Session 1 formative assessment",
+    "section": "S01-Q4",
+    "text": "S01-Q4\nPoints: 2\nBefore comparing version labels, name one data-quality check and one reason these records cannot establish that a deployment caused an improvement.\nYour response:"
+  },
+  {
+    "objectID": "activities/session-03.html",
+    "href": "activities/session-03.html",
+    "title": "Session 3 activity · Descriptive profile",
+    "section": "",
+    "text": "Use the Session 3 notebook and the shared incident dataset. Keep the raw export unchanged; use the documented duplicate and invalid-duration policy from Session 2."
+  },
+  {
+    "objectID": "activities/session-03.html#s03-e1-what-changes-when-one-value-is-far-away",
+    "href": "activities/session-03.html#s03-e1-what-changes-when-one-value-is-far-away",
+    "title": "Session 3 activity · Descriptive profile",
+    "section": "S03-E1 · What changes when one value is far away?",
+    "text": "S03-E1 · What changes when one value is far away?\nCompare [2, 3, 4, 5, 6] with [2, 3, 4, 5, 24]. Calculate the mean and median for both lists. Identify the measure that changes more and explain why the value 24 should not automatically be removed."
+  },
+  {
+    "objectID": "activities/session-03.html#s03-e2-profile-the-observed-durations",
+    "href": "activities/session-03.html#s03-e2-profile-the-observed-durations",
+    "title": "Session 3 activity · Descriptive profile",
+    "section": "S03-E2 · Profile the observed durations",
+    "text": "S03-E2 · Profile the observed durations\nFor the cleaned resolution_hours values, calculate the median, first and third quartiles, IQR, and sample standard deviation. Report units and the number of observed times. Explain which measure you would use for a typical duration and why."
+  },
+  {
+    "objectID": "activities/session-03.html#s03-e3-compare-groups-descriptively",
+    "href": "activities/session-03.html#s03-e3-compare-groups-descriptively",
+    "title": "Session 3 activity · Descriptive profile",
+    "section": "S03-E3 · Compare groups descriptively",
+    "text": "S03-E3 · Compare groups descriptively\nCreate a service summary with incident-record count, observed-duration count, mean, and median. Write two sentences that compare the available service summaries without claiming that service caused the differences. Identify one concern about missingness or group composition."
+  },
+  {
+    "objectID": "activities/session-03.html#peer-review",
+    "href": "activities/session-03.html#peer-review",
+    "title": "Session 3 activity · Descriptive profile",
+    "section": "Peer review",
+    "text": "Peer review\nIn a virtual breakout room, exchange one group’s profile. Check that its units, observed denominator, center summary, and limitation are explicit. Return to the full group with one revision you made."
+  }
+]
