@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 448" role="img" aria-labelledby="title desc">
+  <title id="title">Centro, dispersi&oacute;n, posici&oacute;n y forma</title>
+  <desc id="desc">Cuatro curvas de distribuci&oacute;n que ilustran centro, dispersi&oacute;n, posici&oacute;n y forma.</desc>
+  <rect width="1024" height="448" fill="white"/>
+  <g fill="none" stroke="#111" stroke-width="2">
+    <path d="M23 211V23M23 211H473M549 211V23M549 211H999M23 436V248M23 436H473M549 436V248M549 436H999" stroke="#777"/>
+    <path d="M60 210 C115 202 135 185 170 151 C205 117 231 110 248 110 C281 110 309 125 345 162 C380 198 405 207 436 210" stroke-width="4"/>
+    <path d="M587 210 C635 203 665 174 695 142 C724 111 748 110 774 110 C804 110 833 126 861 157 C893 191 923 204 961 210" stroke-width="4"/>
+    <path d="M60 435 C103 426 130 402 153 375 L153 435 Z" fill="#f6caca" stroke="#111"/>
+    <path d="M60 435 C115 427 137 402 166 374 C198 344 221 336 248 336 C281 336 315 350 342 377 C373 407 399 426 436 435" stroke-width="4"/>
+    <path d="M342 377 L342 435"/>
+    <path d="M342 377 C373 407 399 426 436 435 L342 435 Z" fill="#f6caca" stroke="#111"/>
+    <path d="M587 435 C615 426 625 407 635 371 C647 327 649 298 678 304 C712 309 740 335 765 364 C793 390 830 392 857 401 C893 413 926 426 961 435" stroke-width="4"/>
+    <path d="M248 61V196" stroke="#777" stroke-dasharray="2 6"/>
+    <path d="M153 378V435M342 378V435"/>
+    <path d="M696 154H858" stroke="#777" stroke-dasharray="2 6"/>
+    <path d="M696 154l10 -5M696 154l10 5M858 154l-10 -5M858 154l-10 5" stroke="#777"/>
+  </g>
+  <g fill="#111" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="248" y="43" font-size="17" font-weight="700">Centro</text>
+    <text x="774" y="43" font-size="17" font-weight="700">Dispersi&oacute;n</text>
+    <text x="248" y="295" font-size="17" font-weight="700">Posici&oacute;n</text>
+    <text x="774" y="287" font-size="17" font-weight="700">Forma</text>
+    <text x="248" y="426" font-size="17">1/2</text>
+    <text x="135" y="426" font-size="17">1/4</text>
+    <text x="367" y="426" font-size="17">1/4</text>
+  </g>
+</svg>
